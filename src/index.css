@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+  --primary-color: #183c34;
+  --fundo-color: #ececeb;
+
+  /* cor do fundo da parte final da home */
+  --fundo-color-home: #ecece4;
+}
+
+/* Esconde a barra de rolagem no Chrome, Safari e Opera by ChatGPT */
+
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
